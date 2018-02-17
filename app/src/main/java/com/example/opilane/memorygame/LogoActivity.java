@@ -1,6 +1,7 @@
 package com.example.opilane.memorygame;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +21,8 @@ public class LogoActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },SPLASH_TIME_OUT);
+        }, SPLASH_TIME_OUT);
+        String m1 = SharedPreferences.getString("nimi1", "Ei leitud");
+        String m2 = SharedPreferences.getString("nimi2", "Ei leitud");
     }
 }
