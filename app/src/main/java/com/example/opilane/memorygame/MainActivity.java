@@ -45,7 +45,7 @@ public abstract class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (mediaPlayer == null );
-            mediaPlayer = MediaPlayer.create(this, R.raw.jazzyfenchy);
+            mediaPlayer = MediaPlayer.create(this, R.raw.music.mp3);
         mediaPlayer.start();
 
         SharedPreferences sharedPreferences = getSharedPreferences("nimed", MODE_PRIVATE);
