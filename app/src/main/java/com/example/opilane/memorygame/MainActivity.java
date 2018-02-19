@@ -45,7 +45,7 @@ public abstract class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (mediaPlayer == null );
-            mediaPlayer = MediaPlayer.create(this, R.raw.music.mp3);
+        mediaPlayer = MediaPlayer.create(this, R.raw.music.mp3);
         mediaPlayer.start();
 
         SharedPreferences sharedPreferences = getSharedPreferences("nimed", MODE_PRIVATE);
@@ -136,7 +136,7 @@ public abstract class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int kaart = Integer.parseInt((String)view.getTag);
                 toimubTegevus(pr22, kaart);
-             }
+            }
         });
 
         pr23.setOnClickListener(new View.OnClickListener() {
@@ -365,11 +365,11 @@ public abstract class MainActivity extends AppCompatActivity {
     pr33.setEnabled(true);
     pr34.setEnabled(true);
 
-    kontrollilõpp() {
 
+    kontrollilopp() {
     }
 
-    private void kontrollilõpp(){
+    private void kontrollilopp(){
 
         SharedPreferences sharedPreferences = getSharedPreferences("nimed", MODE_PRIVATE);
         String m1 = sharedPreferences.getString("nimi1", "Ei leitud");
@@ -400,11 +400,11 @@ public abstract class MainActivity extends AppCompatActivity {
 
                 .setNeutralButton("Välju", new DialogInterface.OnClickListener()){
 
-                    @Override
-                    public void onClick(DialogInterface dialog, int i) {
-                        finish();
-                    }
-                });
+            @Override
+            public void onClick(DialogInterface dialog, int i) {
+                finish();
+            }
+        });
         AlertDialog alertDialog = teavitus.create();
         alertDialog.show();
 
@@ -413,8 +413,8 @@ public abstract class MainActivity extends AppCompatActivity {
         textView.setAllCaps(true);
         textView.setTextSize(28);
 
-        }
     }
+}
     private void frontOfKaardidRessurssid() {
         pilt101 = R.drawable.cat.png;
         pilt102 = R.drawable.dog.png;
@@ -435,7 +435,3 @@ public abstract class MainActivity extends AppCompatActivity {
 
 
 }
-
-
-
-
