@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:scaleType="fitCenter"
-        android:background="ss"
+        android:background="@color/ss"
         android:id="@+id/logo"/>
     
     

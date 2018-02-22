@@ -27,6 +27,8 @@ public class StartActivity extends AppCompatActivity {
         Animation animationl = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
         uno.startAnimation(animationl);
         dos.startAnimation(animationl);
+        uno = findViewById(R.id.uno);
+        dos = findViewById(R.id.dos);
 
         nimi1 = findViewById(R.id.mängija1);
         nimi2 = findViewById(R.id.mängija2);

@@ -22,7 +22,6 @@ public class LogoActivity extends AppCompatActivity {
                 finish();
             }
         }, SPLASH_TIME_OUT);
-        String m1 = SharedPreferences.getString("nimi1", "Ei leitud");
-        String m2 = SharedPreferences.getString("nimi2", "Ei leitud");
+
     }
 }

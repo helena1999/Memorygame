@@ -8,6 +8,10 @@
     android:background="#ffdab9"
     tools:context="com.example.opilane.memorygame.StartActivity">
 
+    <ImageView
+        android:id="@+id/uno"
+        android:src="@drawable/animal"/>
+
 
     <EditText
         android:id="@+id/mängija1"
@@ -34,4 +38,8 @@
         android:ems="10"
         android:hint="@string/nimi2"
         android:text="Name" />
+
+    <ImageView
+        android:id="@+id/dos"
+        android:src="@drawable/animals"/>
 </LinearLayout>
