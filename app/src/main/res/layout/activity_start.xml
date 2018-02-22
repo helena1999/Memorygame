@@ -40,7 +40,7 @@
         android:ems="10"
         android:hint="@string/nimi2"
         android:text="" />
-
+<!-- Lisasin kõrguse ja laiuse-->
     <ImageView
         android:id="@+id/dos"
         android:src="@drawable/animals"
