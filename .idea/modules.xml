@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Memorygame.iml" filepath="$PROJECT_DIR$/.idea/Memorygame.iml" />
       <module fileurl="file://C:\Users\Helena\StudioProjects\Memorygame\Memorygame.iml" filepath="C:\Users\Helena\StudioProjects\Memorygame\Memorygame.iml" />
+      <module fileurl="file://C:\Users\Nagel\Desktop\Memorygame-1\.idea\Memorygame.iml" filepath="C:\Users\Nagel\Desktop\Memorygame-1\.idea\Memorygame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Memorygame-1.iml" filepath="$PROJECT_DIR$/Memorygame-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Nagel\Desktop\Memorygame-1\app\app.iml" filepath="C:\Users\Nagel\Desktop\Memorygame-1\app\app.iml" />
     </modules>
   </component>
 </project>

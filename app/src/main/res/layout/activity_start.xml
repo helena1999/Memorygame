@@ -10,7 +10,9 @@
 
     <ImageView
         android:id="@+id/uno"
-        android:src="@drawable/animal"/>
+        android:src="@drawable/animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
     <EditText
@@ -37,9 +39,11 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/nimi2"
-        android:text="Name" />
+        android:text="" />
 
     <ImageView
         android:id="@+id/dos"
-        android:src="@drawable/animals"/>
+        android:src="@drawable/animals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

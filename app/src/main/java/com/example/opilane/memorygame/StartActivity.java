@@ -24,11 +24,13 @@ public class StartActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+        // imageview pead enne initsialiseerima kui hakkad nendel animatsiooni tegema, sest muidu neid ei eksisteeri
+        uno = findViewById(R.id.uno);
+        dos = findViewById(R.id.dos);
         Animation animationl = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
         uno.startAnimation(animationl);
         dos.startAnimation(animationl);
-        uno = findViewById(R.id.uno);
-        dos = findViewById(R.id.dos);
+
 
         nimi1 = findViewById(R.id.mängija1);
         nimi2 = findViewById(R.id.mängija2);
