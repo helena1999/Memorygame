@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // kui mediaplayeri väärtus on null siis luuakse see ning mängitavaks looks saab raw kaustast fail nimega jazzyfrenchy
         if (mediaPlayer == null)
-            mediaPlayer = MediaPlayer.create(this, R.raw.music);
+            mediaPlayer = MediaPlayer.create(this, R.raw.jazz);
         // mediaplayer käivitatakse
         mediaPlayer.start();
         // sharedpreferences abil saadakse kätte alguses salvestatud andmed elik siis mängijate nimed
