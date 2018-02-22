@@ -2,5 +2,6 @@
     <string name="app_name">Memorygame</string>
     <string name="nimi1">mängija 1 nimi</string>
     <string name="nimi2">mängija 2 nimi</string>
-    <string name="p1">p1</string>
+    <string name="p1">0</string>
+    <string name="p2">0</string>
 </resources>
