@@ -10,6 +10,8 @@
 
     <ImageView
         android:id="@+id/uno"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:src="@drawable/animal"/>
 
 
@@ -37,9 +39,11 @@
         android:layout_weight="1"
         android:ems="10"
         android:hint="@string/nimi2"
-        android:text="Name" />
+        android:text="" />
 
     <ImageView
         android:id="@+id/dos"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:src="@drawable/animals"/>
 </LinearLayout>
